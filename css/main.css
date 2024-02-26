@@ -4,6 +4,40 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     margin: 1%;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="none"><path fill="%2369DE19" stroke="%23000" d="M12.5 12.5v2H.5v-2zM26.5 12.5v2h-12v-2zM14.5 11.5h-2V.5h2zM14.5 26.5h-2v-11h2z"/><path fill="%2369DE19" stroke="%23000" d="M15.5 11.5v4h-4v-4z"/></svg>'), auto;
+
+}
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999; /* Ensure the loader appears above other content */
+}
+
+#loading-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#loading video {
+  width: 100%; 
+  height: auto;
+}
+
+::selection {
+  background-color: #69DE19; 
+  color: #1c2814;
+}
+
+/* For older versions of Firefox */
+::-moz-selection {
+  background-color: #69DE19; 
+  color: #1c2814;
 }
 
 a { color: #f0f1fa; outline: none; text-decoration: none !important; font-family: 'Poppins', sans-serif; font-weight: 400;}
@@ -16,6 +50,7 @@ header .navbar-container{display: inline-flex; align-items: center;}
 header navbar ul {float: right; display: inline-flex; text-align: left; }
 header navbar ul li { list-style: none; margin:20px; position: relative;  }
 header navbar ul li a {font-weight: 500; font-size: 24px; text-align: right;}
+
 
 .nav-btns {
     position: relative;
