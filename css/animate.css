@@ -1,0 +1,97 @@
+.animated-text {
+    /* animation: cycle 15s infinite; */
+    position: relative;
+    opacity: 0;
+}
+
+/* Apply animation delays correctly for smoother transitions */
+.animated-text:nth-child(1) {
+    animation: appear 3s 0s forwards;
+}
+.animated-text:nth-child(2) {
+    animation: disappear 3s 3s forwards; /* Delay by 3 seconds */
+}
+.animated-text:nth-child(3) {
+    animation: disappear 3s 4s forwards; /* Delay by 6 seconds */
+}
+.animated-text:nth-child(4) {
+    animation: disappear 3s 5s forwards; /* Delay by 9 seconds */
+}
+.animated-text:nth-child(5) {
+    animation: disappear 3s 6s forwards; /* Delay by 9 seconds */
+}
+
+
+.repeat-anim:hover ~ .animated-text {
+    animation: cycle 15s infinite;
+}
+
+@keyframes cycle {
+    0% {
+        opacity: 1;                      /* All words start visible */
+    }
+    /* Individual fading segments with "Faster" always visible */
+    20% {
+        opacity: 0;                      /* Fade out first 3 words */
+        .animated-text:nth-child(4) {  /* Keep "Faster" visible */
+            opacity: 1;
+        }
+    }
+    40% {
+        opacity: 0;                      /* Fade out "Easier" */
+        .animated-text:nth-child(2),
+        .animated-text:nth-child(4) {   /* Keep "Faster" and "Cheaper" visible */
+            opacity: 1;
+        }
+    }
+    60% {
+        opacity: 0;                      /* Fade out "Cheaper" */
+        .animated-text:nth-child(4) {   /* Keep only "Faster" visible */
+            opacity: 1;
+        }
+    }
+    100% {
+        opacity: 0;                      /* Reset opacity for seamless loop */
+    }
+}
+
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.magicpattern { 
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-30 .5 .5)%22%3E%3Cstop offset=%220%25%22 stop-color=%22%235BC116%22%2F%3E%3Cstop offset=%22100%25%22 stop-color=%22%23d7fabf%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M665.5 668.5q-165.5 168.5-306 0t0-314.5q140.5-146 306 0t0 314.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M665.5 668.5q-165.5 168.5-306 0t0-314.5q140.5-146 306 0t0 314.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+
+  .magicpattern-solid { 
+    width: 40%;
+    height: 25%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M656.5 637q-156.5 137-349 0t0-348q192.5-211 349 0t0 348Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23d7fabf%22 d=%22M656.5 637q-156.5 137-349 0t0-348q192.5-211 349 0t0 348Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  
+  

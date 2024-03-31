@@ -1,0 +1,91 @@
+body{
+    background-color: #000000;
+    color: #767474; 
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    margin: 1%;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="none"><path fill="%2369DE19" stroke="%23000" d="M12.5 12.5v2H.5v-2zM26.5 12.5v2h-12v-2zM14.5 11.5h-2V.5h2zM14.5 26.5h-2v-11h2z"/><path fill="%2369DE19" stroke="%23000" d="M15.5 11.5v4h-4v-4z"/></svg>'), auto;
+
+}
+
+h1 {color: #f0f1fa; font-family: 'Poppins', sans-serif; font-size: 6.854em; font-weight: 400;}
+h2 {color: #f0f1fa; font-family: 'Poppins', sans-serif; font-size: 4.236em; font-weight: 400; margin: auto;}
+
+p {color: #f0f1fa; font-family: 'Poppins', sans-serif; margin: 4px; padding: 4px; font-size: 1.25em; font-weight: 400;}
+
+
+.font-small{
+    /* font-size: 1.25em;  */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    align-items: baseline;
+    text-align: justify;
+    hyphens: auto;
+    letter-spacing: 0.05em;
+}
+
+.font-medium{
+    font-size: 1.618em; 
+    font-weight: 400;
+    line-height: 1.5;
+    align-items: baseline;
+    text-align: justify;
+    hyphens: auto;
+    letter-spacing: 0.05em;
+}
+
+.font-large{
+    font-size: 2.618em; 
+    font-weight: 400;
+    line-height: 1.2;
+    align-items: baseline;
+    /* text-align: justify;
+    letter-spacing: 0.05em; */
+}
+
+#font-thick{
+    font-weight: 500;
+}
+
+
+.font-larger{
+    font-size: 4.236em; 
+    font-weight: 300;
+    line-height: 1.2;
+    align-items: baseline;
+    text-align: left;
+    letter-spacing: 0.05em;
+}
+
+.title-gradient__green {
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(20deg,hsl(96, 72%, 69%) 90%, #f0f1fa );
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  }
+  
+  .title-gradient__mauve {
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(200deg, #7847ff, #A180FF, #cfb5ee);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  }
+  
+  
+  .highlight-vert-light{color: #d7fabf;}
+  .highlight-vert{color: #69DE19;}
+  .highlight-mauve{color: #A180FF;}
+  .highlight-purple{color: #7847ff;}
+  .highlight-grey{color: rgb(255, 255, 255, 0.5);}
+  .highlight-grey li a{color: #767474;}
+  .arrow-open-icon{margin-top: 3%;}
+  .arrow-open-icon img{width: 38px; height: 38px;}
+  .bottom-bento-card{display: inline-flex; align-items: center;}
+  .secondary-action{margin: 4px;}
+  .secondary-action a {font-size: 24px; color: #6A36DF; font-weight: 600;} 
+  

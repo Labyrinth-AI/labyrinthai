@@ -5,280 +5,325 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AI LABYRINTH</title>
+    <title>AI Labyrinth</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
 </head>
 
 <body>
-    <!-- Loader -->
-        <!-- <div id="loading">
-            <div id="loading-center">
-                <img src="Assets/animation.gif" alt="loader">
-            </div>
-        </div> -->
 
-        <!-- <div id="loading">
-            <div id="loading-center">
-                <video autoplay loop muted>
-                    <source src="Assets/AI.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div> -->
-        
-    <!-- loading end -->
     <header>
         <div class="logo">
             <img src="Assets/logo.png" alt="">
         </div>
         <div class="navbar-container">
+
             <div>
-                <navbar>
+                <div class="off-screen-menu">
                     <ul>
-                        <li><a href="gamer_space.html">Gamer Space</a> </li>
-                        <li><a href="index.html">AI Space</a> </li>
-                        <li><a href="index.html">Research</a> </li>
-                        <li><a href="index.html">Contact</a> </li>
+                        <!-- <p class="comingsoon"> COMING SOON</p>  -->
+                        <li> <a href="index.html"> <p class="comingsoon"> COMING SOON</p></a> </li>
+                        <li><a href="index.html">Gamer Space</a></li>
+                        <li><a href="index.html">AI Space</a></li>
+                        <li><a href="index.html">Research</a></li>
+                        <li><a href="index.html">Contact</a></li>
                     </ul>
-                </navbar>
-            </div>
-            <div class="nav-btns">
-                <button id="register-gamer">Register your Gamer </button>
-                <button id="join-laby">  Join the Laby</button>
+
+                </div>
+                <nav>
+                    <div class="ham-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
             </div>
 
         </div>
     </header>
 
     <div class="landing">
-        <div class="landing-text">
-            <div class="landing-big-text">
+        <div>
+            <div>
             <h1> People’s Cloud <br> Accelerating  <br>
                 AI innovation</h1>
             </div>
-            <div class="bento-font-medium">
-                <p class="bento-font-medium">Train AI <span class="highlight-vert-light"> Easier  </span> 
-                    <span class="highlight-vert"> Cheaper  </span>
-                    Safer  
-                    <span class="highlight-mauve"> Faster  </span></p>
-                <p class="bento-font-small highlight-grey">Supported by gaming and mining communities</p>
+            <div>
+                <p class="font-medium"> 
+                    <span class="repeat-anim"> Train AI </span>
+                    <span class="animated-text"> Easier </span>
+                    <span class="animated-text title-gradient__green"> Cheaper  </span>
+                    <span class="animated-text"> Safer </span> 
+                    <span class="animated-text"> Faster </span> 
+                </p>
+                <p class="font-small highlight-grey">Supported by gaming and mining communities</p>
+            </div>
+            <div class="nav-btns">
+                <a href="https://getwaitlist.com/waitlist/14912"><button id="vertlight-btn">Join the Laby </button></a>
             </div>
         </div>
         <div class="landing-img">
-            <img src="Assets/3D Object.png" alt="">
+            <img src="Assets/4.png" alt="">
         </div>
     </div>
-    <div> 
-        <div class="bento-header">
-            <div>
-                <p class="bento-font-largest highlight-mauve"> Save $ 5x Innovate!</p>
-            </div>
-            <div class="description-container">
-                <p class="bento-font-small highlight-grey"> Save on your AI infrastructure costs.
-                    Your go to affordable GPU provider platform to better train AI models.
-                </p>
-            </div>
-        </div>
+    <!-- AI Engineer Bento UI Section -->
+    <div class="bento-parent-container">
         <div class="pitch-container">
-            <div class="slider-left">
-    
-                <div class="bento-card mauve">
-                    <p class="bento-font-small">Would you try that </p>
-                    <p class="bento-font-medium">AI startup solution</p>
-                    <p class="bento-font-medium">Your next research</p>
-                    <p class="bento-font-small">If you had access to </p>
-                    <p class="bento-font-large highlight-purple">Affordable GPU?</p>
-                    <div class="bottom-bento-card">
-                        <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-mauve.png" alt=""></div>
-                        <div class="secondary-action"> <a href="">See GPU price/hour</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-middle">
-    
-                <div class="bento-card" id="bento-mauve-dark">
-                    <p class="bento-font-medium highlight-grey">Is your Startup bleeding $$$</p>
-                    <p class="bento-font-small highlight-grey">to keep creating</p>
-                    <p class="bento-font-medium highlight-purple">Innovating </p>
-                    <p class="bento-font-small highlight-grey">training and deploying</p>
-                    <p class="bento-font-large highlight-purple">AI models?</p>
-                    <div class="bottom-bento-card">
-                        <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-mauve.png" alt=""></div>
-                        <div class="secondary-action"> <a href="">See available GPUs</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-right">
-    
-                <div class="bento-card mauve">
-                    <p class="bento-font-large">Feel intimidated?</p>
-                    <p class="bento-font-medium">Unleash Productivity</p>
-                    <p class="bento-font-medium">In AI space </p>
-                    <p class="bento-font-large highlight-purple">At no cost</p>
-                    <div class="bottom-bento-card">
-                        <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-mauve.png" alt=""></div>
-                        <div class="secondary-action"> <a href="">Start Here</a></div>
-                    </div>
-                </div>
+            <div class="bento-card">
+                <video src="https://vimeo.com/922578269?share=copy"></video>
+                
             </div>
         </div>
-        <div class="bento-header">
-            <div>
-                <p class="bento-font-largest highlight-vert-light"> New AI Mining</p>
-            </div>
-            <div class="description-container">
-                <p class="bento-font-small highlight-grey"> Training AI is the new mining. Rent your GPU-accelerated hardware for the AI industry. Make profits while you support Innovation.</p>
-            </div>
-        </div>
-        <div class="pitch-container">
+    </div>
 
-            <div class="slider-middle">
-                <div class="bento-card">
-                    <p class="bento-font-large"> Hey Gamers, Miners!<span class="highlight-vert"> Monetize </span>  Idle GPUs <br> <span class="highlight-vert"> Invest </span> in AI training</p>
+    <div class="bento-parent-container"> 
+        <div class="bento-header">
+            <div class="grid-container-header">
+                <div class="content">
+                    <div class="title-container">
+                        <p class="font-larger highlight-vert-light" id="font-thick"> Save 5X Innovate!</p>
+                    </div>
+                    <div class="description-container">
+                        <p class="font-small highlight-grey"> Save on your AI infrastructure costs! Your go-to affordable GPU provider platform to better train AI models.</p>
+                    </div>
                 </div>
-                <div class="bento-container-small">
+                <!-- <div class="empty-space"></div> -->
+            </div>
+        </div>
+        
+        <div class="grid-container">
+            <div class="pitch-container">
+                <div class="bento-card vertlight-border">
+                    <p class="font-small highlight-grey"> WELCOME TO LABYRINTH</p>
+                    <p class="font-large" id="font-thick"> Discover future AI tech</p>
+                    <p class="font-small highlight-grey"> We are decentralizing AI compute. Transparent and affordable pricing offered by a community of poeple's cloud.</p>
+                    <div class="nav-btns">
+                        <a href="https://getwaitlist.com/waitlist/14912"><button id="vertlight-btn">Register </button></a>
+                        <button id="vertlight-black-btn">  See how it works</button>
+                    </div>
+                </div>
+            </div>
+            <div class="pitch-container">
+                <div class="bento-card video-container" id="video-container1">
+                    <!-- <div id="vimeo-player" style="width: 100%; height: 100%; margin: 0;"></div> -->
+                </div>
+                
+            </div>
+            <div class="pitch-container">
+                <div class="bento-card video-container">
+                    
+                </div>
+            </div>
+            <div class="pitch-container">
+                <div class="bento-card">
+                    <img src="Assets/1.png" loading="lazy" sizes="(max-width: 479px) 88vw, (max-width: 767px) 400px, (max-width: 991px) 560px, 436px" 
+                    srcset="Assets/1.png 500w, Assets/1.png 800w, Assets/1.png 960w" alt="" class="home-offer-shape-1" style="max-width: 80%; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(56.1528deg) skew(0deg, 0deg); transform-style: preserve-3d; will-change: transform;">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Demo MVP -->
+    <div class="centered-container">
+        <div class="centered-content">
+            <div>
+                <p class="font-larger" id="font-thick"> Train AI Ridiculously <span class="title-gradient__green"> Easier </span></p>
+            </div>
+            <div class="demo-video-container"> 
+                <div>
+                    <img src="Assets/laby_demo1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mixed-container"> 
+        <div class="inline-container">
+            <div class="bento-card vertlight-border center-text">
+                <p class="font-medium">Code</p>
+                <p class="font-larger highlight-vert-light">More</p>
+                <p class="font-small highlight-grey">Hyper focus on Innovating</p>
+            </div>
+            <div class="bento-card vertlight-border">
+                <p class="font-medium">Ship</p>
+                <p class="font-larger highlight-vert-light">Easier</p>
+                <p class="font-small highlight-grey">Build from Git or Docker</p>
+            </div>
+            <div class="bento-card vertlight-border">
+                <p class="font-medium">Deploy</p>
+                <p class="font-larger highlight-vert-light">Safer</p>
+                <p class="font-small highlight-grey">Secure with Containerization</p>
+            </div>
+            <div class="bento-card vertlight-border">
+                <p class="font-medium">Train</p>
+                <p class="font-larger highlight-vert-light">Cheaper</p>
+                <p class="font-small highlight-grey">Pay for just your GPU needs</p>
+            </div>
+        </div>
+        <div class="third-container">
+            <div class="inline-container">
+                <div class="bento-card vertlight-border">
+                    <p class="font-small highlight-grey"> DEVELOPER SPACE</p>
+                    <p class="font-large" id="font-thick"> Access the best affordable GPUs</p>
+                    <p class="font-small highlight-grey"> Easily deploy and train your AI models on host GPU-powered machines. Innovate on a budget!</p>
+                    <div class="nav-btns">
+                        <a href="https://getwaitlist.com/waitlist/14912"><button id="vertlight-btn">Register </button></a>
+                        <button id="vertlight-black-btn">  See how it works</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bento-card">
+                <div class="video-box processed playing" data-video="https://vimeo.com/890162815/057ded19b5?share=copy" data-video-quality="1080p" data-video-fallback-image-desktop="" data-player-id="6289" data-vimeo-initialized="true"><iframe src="https://player.vimeo.com/video/890162815?h=057ded19b5&amp;title=0&amp;muted=1&amp;loop=1&amp;background=1&amp;quality=1080p&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="RPG_variable_5" data-ready="true"></iframe></div>
+            </div>
+        </div>
+        
+    </div>
 
-                    <div class="bento-card vert">
-                        <p class="bento-font-small">
-                            <span class="bento-font-medium">Did you know?</span> <br>Your machine could help accelerate drug discovery while you don't game?
+    <!-- Gamer Bento UI Section -->
+    <div class="bento-parent-container"> 
+        <div class="bento-header">
+            <div class="grid-container-header">
+                <div class="content">
+                    <div class="title-container">
+                        <p class="font-larger highlight-vert-light" id="font-thick"> Monetize your Gamer Machine </p>
+                    </div>
+                    <div class="description-container">
+                        <p class="font-small highlight-grey"> Training AI is the new mining. Rent your GPU-accelerated hardware for the AI industry. Make profits while you support Innovation
                         </p>
-                        <div class="bottom-bento-card">
-                            <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-dark.png" alt=""></div>
-                            <div> <a href=""> <p class="bento-font-small">Support AI creators </p> </a></div>
-                        </div>
-                    </div>
-                    <div class="bento-card" id="bento-dark">
-                        
-                        <p class="bento-font-small"> 
-                            <span class="bento-font-medium highlight-vert">Start Renting</span> your machine to the AI industry Now Enjoy your profits in $$$ and gaming coins
-                        </p>
-                        <div class="bottom-bento-card">
-                            <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-vert.png" alt=""></div>
-                            <div> <a href="">  <p class="bento-font-small highlight-vert"> See how it works </p> </a></div>
-                        </div>
-                    </div>
-    
-                </div>
-    
-            </div>
-            <div class="slider-right">
-                <div class="bento-card vert-light">
-                    <p class="bento-font-small"> Next time you are not playing <span class="bento-font-medium">PubG</span>
-                    <br> Rent that Gamer machine to AI creators<span class="bento-font-medium"> Startups Researchers </span> Freelancers AI Labs, even NGOs </p>
-                    <div class="bottom-bento-card">
-                        <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-vert.png" alt=""></div>
-                        <div> <a href=""> <p class="bento-font-small"> Register your machine </p> </a></div>
                     </div>
                 </div>
-                <div class="bento-card">
-                    <p class="bento-font-largest highlight-vert-light"> 
-                        91 years
-                    </p>
-                    <p class="bento-font-small">Of AI training can be provided</p>
-                    <p class="bento-font-largest highlight-vert-light"> 
-                        100k GPUs
-                    </p>
-                    <p class="bento-font-small">If 100k of you - Gamers / Miners - Rent your machines an average of 8 hours a week</p>
-                    <div class="bottom-bento-card">
-                        <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-vert.png" alt=""></div>
-                        <div> <a href=""> <p class="bento-font-small highlight-vert-light">No clue? Watch this</p> </a></div>
-                    </div>
-                </div>
-    
+                
+                <div class="empty-space"></div>
             </div>
-    
-        </div>
-    </div>
-   
-    <div class="demo-container">
-        <div class="slider-left"> 
-            <p class="bento-font-large"> <span class="highlight-vert-light">Train </span>AI <br>Ridiculously 
-                <br> <span class="highlight-vert"> Cheaper</span> <br>
-                <span class="highlight-mauve"> Faster</span></p> 
-            <div class="nav-btns">
-                <button class="nav-btn" id="join-beta"> Join Beta Waitlist</button>
-            </div>
-        </div>
-        <div class="demo-video-container slider-right"> 
-            <div class="landing-img">
-                <img src="Assets/laby_demo1.png" alt="">
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="pitch-container">
-            <div class="bento-card">
-                <p class="bento-font-medium">Code</p>
-                <p class="bento-font-largest highlight-purple">More</p>
-                <p class="bento-font-small highlight-grey">Hyper focus on Innovating</p>
-            </div>
-            <div class="bento-card">
-                <p class="bento-font-medium">Ship</p>
-                <p class="bento-font-largest highlight-purple">Easier</p>
-                <p class="bento-font-small highlight-grey">Build from Git or Docker</p>
-            </div>
-            <div class="bento-card">
-                <p class="bento-font-medium">Deploy</p>
-                <p class="bento-font-largest highlight-purple">Safer</p>
-                <p class="bento-font-small highlight-grey">Secure with Containerization</p>
-            </div>
-            <div class="bento-card">
-                <p class="bento-font-medium">Train</p>
-                <p class="bento-font-largest highlight-vert">Cheaper</p>
-                <p class="bento-font-small highlight-grey">Pay for just your GPU needs</p>
-            </div>
-        </div>
-        <div class="centered-btn"> 
-            <div class="nav-btns">
-                <button class="nav-btn" id="join-beta"> <span class="bento-font-small">AI Dev Space</span></button>
-            </div>
-        </div>
-    </div>
-    <div class="beta-container">
-        <div>
-            <h2>Beta Version Release</h2>
-            <p class="highlight-grey">Want to join our Dev/Research team? <a href="#" class="highlight-grey"> Drop us a message</a></p>
             
         </div>
-        <div class="row">
-            <div style="width: -webkit-fill-available;"> <p class="bento-font-small"> MVP Status: 40% in progress</p></div>  
-        </div>
-        <div class="row">
-            <div style="width: -webkit-fill-available;"> <p class="bento-font-small"> Release Week: First Week May 2024</p></div>  
-        </div>
-        <div class="row">
-            <div class="nav-btns">
-                <button id="join-laby"> <span  class="bento-font-small"> Register your Gamer </span></button>
-                <button id="join-laby-mauve">  <span  class="bento-font-small">Join Beta Waitlist</span></button>
+        <div class="grid-container">
+            <div class="pitch-container">
+                <div class="bento-card video-container" id="video-container2">
+                    <!-- <div id="vimeo-player" style="width: 100%; height: 100%; margin: 0;"></div> -->
+                
+                </div>
             </div>
-        </div>
+            <div class="pitch-container">
+                <div class="bento-card vert-light">
+                    <p class="font-large" id="font-thick">Did you know?</p>
+                    <p class="font-small">
+                    Your machine could help accelerate drug discovery while you don't game?
+                    </p>
+                    <div class="bottom-bento-card">
+                        <div class="arrow-open-icon"> <img src="Assets/arrow-open-icon-dark.png" alt=""></div>
+                        <div> <a href=""> <p class="font-small">Support AI creators </p> </a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pitch-container">
+                <div class="bento-card vertlight-border">
+                    <p class="font-larger highlight-vert-light"> 91 Years </p>
+                    <p class="font-small highlight-grey"> Training time can be provided each week If 100K GPU providers rent their machines only 8 hours a week</p>
+                    <p class="font-small highlight-grey"> Imagine what the AI industry could achieve with such a abundant computing power and large  community</p>
+                </div>
 
-    </div>
+            </div>
+            <div class="pitch-container">
+                <div class="bento-card">
+                    <div class="video-box processed playing" data-video="https://vimeo.com/890162815/057ded19b5?share=copy" data-video-quality="1080p" data-video-fallback-image-desktop="" data-player-id="6289" data-vimeo-initialized="true"><iframe src="https://player.vimeo.com/video/890162815?h=057ded19b5&amp;title=0&amp;muted=1&amp;loop=1&amp;background=1&amp;quality=1080p&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="RPG_variable_5" data-ready="true"></iframe></div>
+                </div>
+            </div>
+            <div class="pitch-container">
+                <div class="bento-card ">
+                    <img src="Assets/2.png" loading="lazy" sizes="(max-width: 479px) 88vw, (max-width: 767px) 400px, (max-width: 991px) 560px, 436px" 
+                    srcset="Assets/2.png 500w, Assets/1.png 800w, Assets/2.png 960w" alt="" class="home-offer-shape-1" style="max-width: 80%; will-change: transform; transform: translate3d(7.99904px, 8.00112px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                    
+                </div>
+                <!-- <img src="Assets/limbo1.jpg" style="max-width: 100%;"> -->
 
-    <div class="beta-container">
-        <div class="bento-card vert-light">
-            <!-- <div class="row">
-                <input type="email" placeholder="Here is my @email, I don’t want to miss out on AI Labyrinth">
-            </div> -->
-            <div class="row">
-                <p class="bento-font-medium">Become an early Adopter</p>
             </div>
-            <div>
-                <p class="highlight-grey"> Count me in! I don’t want to miss out on AI Labyrinth</p>
-            </div>
-            <div class="row">
-                <div class="nav-btns">
-                    <button id="register-gamer"> I have a GPU-powered machine</button>
-                    <button id="join-beta">I make AI models</button>
+            <div class="pitch-container">
+                <div class="bento-card vertlight-border">
+                    <p class="font-larger highlight-vert-light"> 100k providers</p>
+                    <p class="font-small highlight-grey"> Join us to offer GPU-hardware for rental with hour-based pricing.
+                        Register your machine before the launch of Beta version. We will check its compatibility with AI training requirements.
+                    </p>
+                    <div class="nav-btns">
+                        <a href="https://getwaitlist.com/waitlist/14912"><button id="vertlight-btn">Register </button></a>
+                        <button id="vertlight-black-btn">  See how it works</button>
+                    </div>
                 </div>
             </div>
 
         </div>
+        <div class="pitch-container" id="mobile-mrgn">
+            <div class="bento-card ">
+                <div class="video-box processed playing" data-video="https://vimeo.com/890162815/057ded19b5?share=copy" data-video-quality="1080p" data-video-fallback-image-desktop="" data-player-id="6289" data-vimeo-initialized="true"><iframe src="https://player.vimeo.com/video/890162815?h=057ded19b5&amp;title=0&amp;muted=1&amp;loop=1&amp;background=1&amp;quality=1080p&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="RPG_variable_5" data-ready="true"></iframe></div>
+            </div>
+        </div>
+        <div class="third-container">
+            <div class="inline-container">
+                <div class="bento-card vertlight-border">
+                    <p class="font-small highlight-grey"> GAMER SPACE</p>
+                    <p class="font-large"> Do you have a powerful GPU machine?</p>
+                    <p class="font-small highlight-grey"> Invest your spare compute power in AI training. Say goodbye to regular mining, high gas costs and high CO2 footprint</p>
+                    <div class="nav-btns">
+                        <a href="https://getwaitlist.com/waitlist/14912"><button id="vertlight-btn">Register </button></a>
+                        <button id="vertlight-black-btn">  See how it works</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bento-card">
+                <div class="video-box processed playing" data-video="https://vimeo.com/890162815/057ded19b5?share=copy" data-video-quality="1080p" data-video-fallback-image-desktop="" data-player-id="6289" data-vimeo-initialized="true"><iframe src="https://player.vimeo.com/video/890162815?h=057ded19b5&amp;title=0&amp;muted=1&amp;loop=1&amp;background=1&amp;quality=1080p&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="RPG_variable_5" data-ready="true"></iframe></div>
+            </div>
+        </div>
     </div>
+
+    
+    <div class="mixed-container">
+        <div class="centered-container">
+            <div class="centered-content">
+                <div>
+                    <p class="font-larger" id="font-thick"> Beta Version <span class="title-gradient__green"> Coming Soon </span></p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="third-container">
+            <div class="inline-container">
+                <div class="bento-card vertlight-border">
+                    <p class="font-small highlight-grey"> LABYRINTH AI</p>
+                    <p class="font-large"> GPU Marketplace</p>
+                    <p class="font-small highlight-grey"> Affordable GPU rental platform <br> For AI people, By the people</p>
+                    <div class="nav-btns">
+                        <a href="https://getwaitlist.com/waitlist/14912"><button id="vertlight-btn">Register </button> </a>
+                        <button id="vertlight-black-btn">  See how it works</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bento-card">
+                <div class="video-box processed playing" data-video="https://vimeo.com/890162815/057ded19b5?share=copy" data-video-quality="1080p" data-video-fallback-image-desktop="" data-player-id="6289" data-vimeo-initialized="true"><iframe src="https://player.vimeo.com/video/890162815?h=057ded19b5&amp;title=0&amp;muted=1&amp;loop=1&amp;background=1&amp;quality=1080p&amp;app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="RPG_variable_5" data-ready="true"></iframe></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="centered-container">
+        <div class="bento-card vert-light">
+            <div id="getWaitlistContainer" data-waitlist_id="14912" data-widget_type="WIDGET_1" style="justify-content: space-around;"></div>
+            <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css"/>
+            <script src="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.js"></script>
+        </div>
+        <div class="bento-card">
+            <p class="font-small highlight-grey"> CONTACT US</p>
+            <p class="font-large"> DROP US A LINE</p>
+            <p class="font-small highlight-grey"> We're excited to hear from you whether you are a startup, researcher, student, AI Lab, NGO, investor .. Let's chat!</p>
+            <p class="comingsoon font-small"> hello@labyrinth.ai</p>
+        </div>
+    </div>
+    
+    
+
     <!-- Footer -->
     
     <footer>
@@ -317,7 +362,7 @@
                 </div>
             </div>
         
-            <div>
+            <div class="footer-social">
                 <div class="social-icons">
                     <a href="#"><img src="Assets/Social_Twitch.png" alt=""></a>
                     <a href="#"><img src="Assets/Social_Discord.png" alt=""></a>
@@ -327,15 +372,60 @@
                     <a href="#"><img src="Assets/Social Icons.png" alt=""></a>
                 </div>
                 <div class="nav-btns">
-                    <button id="join-beta">Drop us a message</button>
+                    <button id="vertlight-btn">Drop us a message</button>
                 </div>
             </div>
+        </div>
+        <div style="justify-content: center;
+        align-items: center; text-align: center; margin: 4%;">
+            &#169; 2024 LABYRINTH AI
         </div>
         
     </footer>
     
 
     <script src="js/script.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+    function embedVimeoVideo(containerId, videoId) {
+        var container = document.getElementById(containerId);
+        var playerDiv = document.createElement('div');
+        playerDiv.style.width = '100%';
+        playerDiv.style.height = '100%';
+        playerDiv.style.margin = 0;
+        container.appendChild(playerDiv);
+
+        var options = {
+            id: videoId,
+            autoplay: true,
+            loop: true,
+            background: true,
+            muted: true,
+            byline: false,
+            title: false,
+            controls: false
+        };
+
+        var player = new Vimeo.Player(playerDiv, options);
+
+        player.ready().then(function() {
+            player.setVolume(0);
+            player.play();
+            player.setCurrentTime(0);
+            player.setLoop(true);
+            player.setPlaybackRate(1);
+            player.setFullscreen(true);
+            playerDiv.style.width = container.offsetWidth + 'px';
+            playerDiv.style.height = container.offsetHeight + 'px';
+        });
+    }
+
+    // Call the function for each video  
+    embedVimeoVideo('video-container1', 926929322); // Change the video ID accordingly
+    embedVimeoVideo('video-container2', 922578269); // Change the video ID accordingly
+    // Add more calls for additional videos as needed
+</script>
+
 </body>
 
 </html>

@@ -1,0 +1,88 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body .landing{
+        display: block;
+    }
+
+    h1 { font-size: 4.236em; font-weight: 400;}
+    .landing-img img{width: -webkit-fill-available;}
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2%;
+      }
+      .content {
+        width: 100%;
+      }
+    .centered-container{
+        display: block;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .demo-video-container img {width: -webkit-fill-available;}
+    .inline-container{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .third-container{grid-template-columns: 1fr;}
+    .mixed-container{margin-top: 30%;}
+
+    .menu-toggle {
+        display: block;
+      }
+    
+      .nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 1000;
+      }
+    
+      .nav.active {
+        display: flex;
+      }
+    
+      .nav-links {
+        flex-direction: column;
+        padding: 20px;
+      }
+    
+      .nav-links li {
+        padding: 10px 0;
+      }
+    
+      .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+    
+      .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+      }
+    
+      .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+      }
+      .footer-section{
+        display: block;
+      }
+      .footer-links{
+        display: block;
+        text-align: center;
+      }
+      #mobile-mrgn{margin-top: 40%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
