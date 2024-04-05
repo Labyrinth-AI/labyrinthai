@@ -362,6 +362,9 @@ nav {
   margin: 0;
 }
 .bento-card iframe{
+  /* position: absolute;
+  top: 0;
+  left: 0; */
   border-radius: 48px;
   width: -webkit-fill-available;
   height: -webkit-fill-available;
