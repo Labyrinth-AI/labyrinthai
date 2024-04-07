@@ -30,13 +30,13 @@ body{
 }
 
 ::selection {
-  background-color: #69DE19; 
+  background-color: #bbfd05; 
   color: #1c2814;
 }
 
 /* For older versions of Firefox */
 ::-moz-selection {
-  background-color: #69DE19; 
+  background-color: #bbfd05; 
   color: #1c2814;
 }
 
@@ -392,6 +392,27 @@ nav {
   border-radius: 48px;
 }
 
+.media-containter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 48px;
+  border: 2px solid rgba(51, 48, 51, 0.5);
+  vertical-align: top;
+  padding: 10%; margin: 1%;
+  /* width: -webkit-fill-available;
+  height: -webkit-fill-available; */
+  /* background-color: rgb(21, 19, 21); */
+  background: linear-gradient(
+    300deg,
+    rgba(21, 19, 21, .40),
+    rgba(21, 19, 21, 0.5), 70%, 
+    rgba(21, 19, 21, 0.80)
+  );
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
 
 /* Footer CSS */
 .footer-section {
